@@ -1,0 +1,61 @@
+body {
+  background: #f4f4f4;
+  font-family: Arial;
+}
+
+.container {
+  width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+form input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 15px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid #999;
+  padding: 8px;
+}
+
+.action-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.edit {
+  background: orange;
+  color: #fff;
+}
+
+.delete {
+  background: red;
+  color: #fff;
+}
