@@ -11,7 +11,7 @@ app.post('/students', (req, res) => {
     const { name, marks } = req.body;
 });
     // Logic to add student
-    res.status(201).send({ message: 'Student added successfully' });
+    res.status(200).send({ message: 'Student added successfully' });
 app.get('/students', (req, res) => {
     // Logic to get all students
     res.send([]);
@@ -29,6 +29,6 @@ app.delete('/students/:id', (req, res) => {
     res.send({ message: 'Student deleted successfully' });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on port http://localhost:${3000}`);
+    console.log(`Server is running on port http://localhost:3000`);
 });
 module.exports = app;
